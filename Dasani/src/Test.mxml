@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<!-- controls\videodisplay\VideoDisplayCamera.mxml -->
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   applicationComplete="init();">
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.core.UIComponent;
+			import mx.rpc.events.FaultEvent;
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.remoting.RemoteObject;
+			
+			import spark.utils.TextFlowUtil;
+			private var nc:NetConnection;
+			private var rtmfpServer:String = 'rtmfp://stratus.adobe.com/5342dc2d4d77bfc9df7d3562-a032782fce1a';
+			private var sendNS:NetStream;
+			private var textNS:NetStream;
+			private var neerPeerID:String;
+			
+			private var cam:Camera;
+			private var mic:Microphone;
+			
+			private function init():void {
+				trace("Starting");
+				onCreationComplete();
+				initCamera();
+				initListeners();
+				initNetConnection();
+			}
+			
+			private function initListeners():void {
+				
+			}
+			
+			private function initCamera():void {
+				if (Camera.names.length > 0) { 
+					cam = Camera.getCamera();
+					cam.setQuality(0,100);
+					my_video_display.attachCamera(cam);
+				}
+				
+				if (Microphone.names.length > 0) {
+					mic = Microphone.getMicrophone();
+				}
+			}
+			
+			private function initNetConnection():void {
+				nc = new NetConnection();
+				nc.addEventListener(NetStatusEvent.NET_STATUS, netStatusEvent);
+				nc.connect(rtmfpServer);
+			}
+			
+			private function netStatusEvent(event:NetStatusEvent):void {
+				trace('NetConnection status event (1): ' + event.info.code);
+				if (event.info.code == 'NetConnection.Connect.Success') {
+					neerPeerID = nc.nearID;
+					farPeerId_text.text = neerPeerID;
+					initSendNetStream();
+					add_contact_container.visible = true;
+				}
+			}
+			
+			private function initSendNetStream():void {
+				sendNS = new NetStream(nc, NetStream.DIRECT_CONNECTIONS);
+				sendNS.addEventListener(NetStatusEvent.NET_STATUS, netStatusEvent);
+				
+				var clientObject:Object = new Object();
+				clientObject.onPeerConnect = function(ns:NetStream):Boolean {return true;}
+				
+				//sendNS.client = clientObject;
+				sendNS.attachCamera(cam);
+				sendNS.attachAudio(mic);
+				sendNS.publish('video');
+				
+				textNS = new NetStream(nc, NetStream.DIRECT_CONNECTIONS);
+				textNS.addEventListener(NetStatusEvent.NET_STATUS, onSendStreamHandler);
+				textNS.publish("textStream");
+			}
+			
+			private function onSendStreamHandler(vEvent:NetStatusEvent):void
+			{
+			}
+			
+			public function receiveMessage(message:String):void {
+				mainTextArea.textFlow = TextFlowUtil.importFromString(mainTextArea.text+"\n" +message);
+			}
+			
+			private function sendMessage():void {
+				if(messageTextInput.text != "") {
+					textNS.send("receiveMessage", (String)(userNameTextBox.text +": "+ messageTextInput.text));
+					mainTextArea.textFlow = TextFlowUtil.importFromString(mainTextArea.text+"\n" + userNameTextBox.text +": "+ messageTextInput.text);
+					messageTextInput.text = "";
+				}
+				
+			}
+			
+			private var loginController : RemoteObject;
+			private var chatController:RemoteObject;
+			
+			public function onCreationComplete() : void {
+				loginController = new RemoteObject();
+				loginController.source = "TestController";
+				loginController.destination = "rubyamf";
+				
+				loginController.test.addEventListener("result", onResult);
+				loginController.addEventListener("fault", onFault);
+				loginController.test("TEST");
+				
+				chatController = new RemoteObject();
+				chatController.source = "ChatController";
+				chatController.destination = "rubyamf";
+				chatController.connect.addEventListener("result", onConnect);
+				chatController.addEventListener("fault", onFault);
+			}
+			
+			private function onResult(event:ResultEvent):void {
+				mainTextArea.textFlow = TextFlowUtil.importFromString("OMG"+event.result);
+			}
+
+			private function onFault(event:FaultEvent):void {
+				mainTextArea.textFlow = TextFlowUtil.importFromString(event.message.toString() );
+
+			}
+			
+			private function onReceiveNetStream(vEvent:NetStatusEvent):void
+			{
+				trace("WTF "+vEvent.info.code);
+				if(vEvent.info.code=="NetStream.Play.Start")
+				{
+					trace("Connected Receive");
+				}
+
+			}
+			
+			private function addContact():void {
+				var nc2:NetConnection = new NetConnection();
+				var receiveTextNS:NetStream = new NetStream(nc, contact_peer_id_text.text);
+				receiveTextNS.addEventListener(NetStatusEvent.NET_STATUS, onReceiveNetStream);
+				receiveTextNS.play('textStream');
+				receiveTextNS.client = this;
+				
+				
+				nc2.addEventListener(NetStatusEvent.NET_STATUS, function (event:NetStatusEvent):void {
+					trace('NetConnection status event (2): ' + event.info.code);
+					var receiveNS:NetStream = new NetStream(nc2, contact_peer_id_text.text);
+					receiveNS.addEventListener(NetStatusEvent.NET_STATUS, netStatusEvent);
+					receiveNS.play('video');
+					//receiveNS.client = this;
+			
+					
+					var video:Video = new Video();
+					video.attachNetStream(receiveNS);
+					
+					var uic:UIComponent = new UIComponent();
+					uic.width = 320;
+					uic.height = 240;
+					uic.addChild(video);
+					video_stack.addChild(uic);
+					
+					contact_peer_id_text.text = '';
+				});
+				nc2.connect(rtmfpServer);
+			}
+			
+			private function getNewContact():void {
+				chatController.connect({key:nc.nearID});
+				//loginController.test("TEST");
+				
+			}
+			private function onConnect(response:ResultEvent):void {
+				if(response.result.peer_id== null)
+					return;
+				var nc2:NetConnection = new NetConnection();
+				nc2.addEventListener(NetStatusEvent.NET_STATUS, function (event:NetStatusEvent):void {
+					trace('NetConnection status event (2): ' + event.info.code);
+					var receiveNS:NetStream = new NetStream(nc2, response.result.peer_id);
+					receiveNS.addEventListener(NetStatusEvent.NET_STATUS, netStatusEvent);
+					receiveNS.play('video');
+					receiveNS.client = this;
+					
+					
+					var video:Video = new Video();
+					video.attachNetStream(receiveNS);
+					
+					var uic:UIComponent = new UIComponent();
+					uic.width = 320;
+					uic.height = 240;
+					uic.addChild(video);
+					video_stack.addChild(uic);
+					
+					contact_peer_id_text.text = '';
+				});
+				nc2.connect(rtmfpServer);
+			}
+			
+			public function closeSession():void{
+				Alert.show("hi");
+				trace("done");
+			}
+		]]>
+	</fx:Script>
+	
+	<mx:HBox id="video_stack" top="10" left="10">
+		<mx:VBox>
+			<mx:VideoDisplay id="my_video_display" width="320" height="240"/>
+			<mx:HBox>
+				<mx:TextInput width="320" id="farPeerId_text" text="Your Peer ID is loading..."/>
+			</mx:HBox>
+			
+			<mx:HBox id="add_contact_container" visible="false">
+				<mx:TextInput id="contact_peer_id_text" width="200"/>
+				<mx:Button label="Add contact" click="{addContact();}"/>	
+			</mx:HBox>
+		
+			<mx:HBox visible="true">
+				<mx:Button label="Connect!" click="{getNewContact();}"/>	
+			</mx:HBox>
+		</mx:VBox>
+		<mx:VBox>
+			<mx:HBox>
+				<mx:Label text="User Name"/>
+				<mx:TextInput width="320" id="userNameTextBox" text="Me"/>
+			</mx:HBox>
+			<s:TextArea width="400" heightInLines="15" id="mainTextArea"/>
+			<mx:HBox>
+				<mx:TextInput id="messageTextInput" width="320"/>
+				<mx:Button label="Send" click="{sendMessage();}"/>	
+			</mx:HBox>
+		</mx:VBox>
+	</mx:HBox>
+
+	
+</s:Application>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model xmlns="http://ns.adobe.com/Fiber/1.0">
+  <annotation name="ActionScriptGeneration">
+    <item name="FullyQualifyReferences">true</item>
+  </annotation>
+  <service name="UserService">
+    <annotation name="ActionScriptGeneration">
+      <item name="Source">UserService</item>
+      <item name="ServiceType">RemoteObject</item>
+      <item name="Package">services.userservice</item>
+      <item name="Endpoint">http://localhost:3000/weborb</item>
+      <item name="Destination">UserService</item>
+    </annotation>
+    <annotation name="ServiceTypeGroup">
+      <item name="ServiceBackendType">ROR</item>
+    </annotation>
+    <annotation name="ServiceConfig">
+      <item name="SERVICE_DIR">D:/Documents/Aptana/Dasani/app/services</item>
+      <item name="DEFAULT_ENTITY_PACKAGE">valueObjects</item>
+      <item name="LINKED_FILE">UserService.rb</item>
+      <item name="SERVICE_FILE">D:/Documents/Aptana/Dasani/app/services/UserService.rb</item>
+    </annotation>
+  </service>
+  <service name="InfoService">
+    <annotation name="ActionScriptGeneration">
+      <item name="Source">InfoService</item>
+      <item name="ServiceType">RemoteObject</item>
+      <item name="Package">services.infoservice</item>
+      <item name="Endpoint">http://localhost:3000/weborb</item>
+      <item name="Destination">InfoService</item>
+    </annotation>
+    <annotation name="ServiceTypeGroup">
+      <item name="ServiceBackendType">ROR</item>
+    </annotation>
+    <annotation name="ServiceConfig">
+      <item name="SERVICE_DIR">D:/Documents/Aptana/Dasani/app/services</item>
+      <item name="DEFAULT_ENTITY_PACKAGE">valueObjects</item>
+      <item name="LINKED_FILE">InfoService.rb</item>
+      <item name="SERVICE_FILE">D:/Documents/Aptana/Dasani/app/services/InfoService.rb</item>
+    </annotation>
+  </service>
+</model>
