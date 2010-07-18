@@ -1,0 +1,3240 @@
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-19 16:24:22) [GET]
+Sending data 
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-19 16:53:28) [GET]
+
+ActionController::RoutingError (No route matches "/Dasani" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-19 16:54:01) [GET]
+
+ActionController::RoutingError (No route matches "/Dasani" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-20 16:39:54) [GET]
+
+ActionController::RoutingError (No route matches "/Dasani" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 00:21:50) [GET]
+
+ActionController::RoutingError (No route matches "/Dasani/text.wf" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 00:21:54) [GET]
+
+ActionController::RoutingError (No route matches "/Dasani/text.swf" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:42:57) [POST]
+Sending data 
+Completed in 45ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:42:58) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:42:58) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 3ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 22ms (View: 0, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:44:02) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:44:03) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:44:03) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 3ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 23ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:45:40) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:45:42) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:45:42) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:50:24) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:50:26) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:50:26) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 49ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:50:58) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:50:59) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:50:59) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 25ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:51:23) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 00:51:24) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 00:51:24) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:18) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:19) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 01:05:19) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:33) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:34) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 01:05:34) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:50) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-21 01:05:51) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-21 01:05:51) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 53ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-28 23:34:25) [POST]
+Sending data 
+Completed in 383ms (View: 39, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-28 23:34:27) [POST]
+Sending data 
+Completed in 210ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-28 23:35:45) [POST]
+Sending data 
+Completed in 267ms (View: 9, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-28 23:35:52) [POST]
+Sending data 
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 00:58:21) [POST]
+Sending data 
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 00:58:22) [POST]
+Sending data 
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 00:59:53) [POST]
+Sending data 
+Completed in 42ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:01:05) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:01:06) [POST]
+Sending data 
+Completed in 39ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:04:24) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:04:25) [POST]
+Sending data 
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:06:57) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:06:58) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (146.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (143.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100628035453)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "password_salt" varchar(255), "persistence_token" varchar(255), "perishable_token" varchar(255), "login_count" integer, "failed_login_count" integer, "last_request_at" datetime, "current_login_at" datetime, "last_login_at" datetime, "current_login_ip" varchar(255), "last_login_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100628035453')[0m
+Migrating to CreateStratusKeys (20100629031025)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "stratus_keys" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "key" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100629031025')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stratus_keys")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:16:18) [GET]
+Sending data 
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:17:48) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:17:49) [POST]
+Sending data 
+Completed in 45ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:18:06) [POST]
+Sending data 
+Completed in 41ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:19:11) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:19:12) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:19:23) [POST]
+Sending data 
+Completed in 43ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:20:43) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:20:44) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-29 01:20:44) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:20:53) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-29 01:20:53) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:21:21) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:21:23) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-29 01:21:23) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:21:25) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-29 01:21:25) [POST]
+  Parameters: {0=>"e10e531a64177cd3c8fefa66de60dea7c3f16767679f202ba9c5b1db16ed2f10"}
+Completed in 2ms (DB: 0) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 25ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:23:35) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:23:36) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-29 01:23:36) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:23:38) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-29 01:23:38) [POST]
+  Parameters: {0=>{"key"=>"51c58eddeaecb2aa14111e1e7c20c9430810453a35b87c05a9e98cc07726dcc3"}}
+Completed in 2ms (DB: 0) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 27ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-29 01:24:00) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100628035453)
+Migrating to CreateStratusKeys (20100629031025)
+Migrating to CreateConnections (20100630050720)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mCREATE TABLE "connections" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "stratus_key_id" integer, "peer_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100630050720')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("connections")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stratus_keys")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:13:11) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:13:12) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:13:12) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:13:14) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:13:14) [POST]
+  Parameters: {0=>{"key"=>"a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x4ce94f8>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 2276ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:13:18) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:13:18) [POST]
+  Parameters: {0=>{"key"=>"a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0"}}
+  [4;35;1mStratusKey Load (2.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x57632b8>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 127ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:13:37) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:13:37) [POST]
+  Parameters: {0=>{"key"=>"a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a44e703328818e56cca3cd1bbdd2f30584a4acfdee30da0b5a7ccc44409b48c0') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x58a3298>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 110ms (View: 2, DB: 1) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:15:50) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:15:51) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:15:51) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:15:56) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:15:56) [POST]
+  Parameters: {0=>{"key"=>"448f161453e337da90fc026a853f9d7744018e3b67c1ee07209417549d822a5e"}}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '448f161453e337da90fc026a853f9d7744018e3b67c1ee07209417549d822a5e') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x58d37c0>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 93ms (View: 2, DB: 1) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:16:24) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:16:25) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:16:25) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:16:33) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:16:33) [POST]
+  Parameters: {0=>{"key"=>"98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x5911ed8>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 92ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:16:47) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:16:47) [POST]
+  Parameters: {0=>{"key"=>"98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489"}}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x5b33320>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 122ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:17:37) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:17:38) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:17:38) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:17:47) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:17:47) [POST]
+  Parameters: {0=>{"key"=>"98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '98d7e4d768ca284f9a11bab492da3db9cd080b69b6d160d9234ff1d585c23489') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x5b135f8>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 132ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:18:38) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:18:39) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:18:39) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:19:01) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:19:02) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:19:02) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 3ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:19:25) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:19:26) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:19:26) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:19:39) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:19:39) [POST]
+  Parameters: {0=>{"key"=>"02d478fd1c0af18ed44d1ffe34ac22e32db8ad75983fe4581af28f77fbde0e53"}}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '02d478fd1c0af18ed44d1ffe34ac22e32db8ad75983fe4581af28f77fbde0e53') LIMIT 1[0m
+
+NameError (undefined local variable or method `strat' for #<ChatController:0x58944a8>):
+  app/controllers/chat_controller.rb:7:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (51.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 149ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:20:54) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:20:56) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:20:56) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:21:12) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:21:13) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:21:13) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:21:54) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:21:54) [POST]
+  Parameters: {0=>{"key"=>"23799cfeb6b38c54f9a15dd45eb95c2e8e9f7d0ba3b94536ac5d78dfebfe49c7"}}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '23799cfeb6b38c54f9a15dd45eb95c2e8e9f7d0ba3b94536ac5d78dfebfe49c7') LIMIT 1[0m
+  [4;35;1mStratusKey Create (0.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:21:54', NULL, '23799cfeb6b38c54f9a15dd45eb95c2e8e9f7d0ba3b94536ac5d78dfebfe49c7', '2010-06-30 05:21:54')[0m
+
+ArgumentError (Unknown key(s): join):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 368ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:22:56) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:22:57) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:22:57) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:24:15) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:24:16) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:24:16) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:24:23) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:24:23) [POST]
+  Parameters: {0=>{"key"=>"4cef655be2e10592259538dafa61eea0ee493e58ca0ce1b38b45522b6139bc30"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '4cef655be2e10592259538dafa61eea0ee493e58ca0ce1b38b45522b6139bc30') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:24:23', NULL, '4cef655be2e10592259538dafa61eea0ee493e58ca0ce1b38b45522b6139bc30', '2010-06-30 05:24:23')[0m
+
+ActiveRecord::ConfigurationError (Association named 'connection' was not found; perhaps you misspelled it?):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (54.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 392ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:25:27) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:25:28) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:25:28) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:25:35) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:25:35) [POST]
+  Parameters: {0=>{"key"=>"0ac0060d157d9446ac834fb8879bfe09245b89295e85e947f3b893eac5e56bfd"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0ac0060d157d9446ac834fb8879bfe09245b89295e85e947f3b893eac5e56bfd') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:25:35', NULL, '0ac0060d157d9446ac834fb8879bfe09245b89295e85e947f3b893eac5e56bfd', '2010-06-30 05:25:35')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 444ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:29:01) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:29:02) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:29:02) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:29:35) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:29:36) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:29:36) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:29:58) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:29:58) [POST]
+  Parameters: {0=>{"key"=>"dfa5b1e2d4ad38dd887a937df95e63ea0114abb5d1eb3e0bf153ce108e59920e"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'dfa5b1e2d4ad38dd887a937df95e63ea0114abb5d1eb3e0bf153ce108e59920e') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:29:58', NULL, 'dfa5b1e2d4ad38dd887a937df95e63ea0114abb5d1eb3e0bf153ce108e59920e', '2010-06-30 05:29:58')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (87.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 534ms (View: 2, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:30:51) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:30:53) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:30:53) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:31:10) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:31:10) [POST]
+  Parameters: {0=>{"key"=>"f349df35acd7ea591de0bb15bc60fcfb95c133fa6639d4420ce3ef2cef2b2be2"}}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'f349df35acd7ea591de0bb15bc60fcfb95c133fa6639d4420ce3ef2cef2b2be2') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:31:10', NULL, 'f349df35acd7ea591de0bb15bc60fcfb95c133fa6639d4420ce3ef2cef2b2be2', '2010-06-30 05:31:10')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 456ms (View: 2, DB: 1) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:32:02) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:32:03) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:32:04) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:32:12) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:32:12) [POST]
+  Parameters: {0=>{"key"=>"5a9ca78aaaf105136e0d8ab17880013962228156e5028b68beac5e001f2d7281"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '5a9ca78aaaf105136e0d8ab17880013962228156e5028b68beac5e001f2d7281') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:32:12', NULL, '5a9ca78aaaf105136e0d8ab17880013962228156e5028b68beac5e001f2d7281', '2010-06-30 05:32:12')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 464ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:34:12) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:34:13) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:34:13) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:34:22) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:34:22) [POST]
+  Parameters: {0=>{"key"=>"271836b57cff9e5e1d99d24b9e6bebb04f4e6f7ffb050cb679a49f38eb8fe4b7"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '271836b57cff9e5e1d99d24b9e6bebb04f4e6f7ffb050cb679a49f38eb8fe4b7') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:34:22', NULL, '271836b57cff9e5e1d99d24b9e6bebb04f4e6f7ffb050cb679a49f38eb8fe4b7', '2010-06-30 05:34:22')[0m
+
+ActiveRecord::ConfigurationError (Association named 'condition' was not found; perhaps you misspelled it?):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 420ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:35:26) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:35:27) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-06-30 01:35:27) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-06-30 01:35:46) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-06-30 01:35:46) [POST]
+  Parameters: {0=>{"key"=>"14734d8d9bc36056e1e1a58b238318dad3935c31dab628625d1bcf40ea4e5819"}}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '14734d8d9bc36056e1e1a58b238318dad3935c31dab628625d1bcf40ea4e5819') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-06-30 05:35:46', NULL, '14734d8d9bc36056e1e1a58b238318dad3935c31dab628625d1bcf40ea4e5819', '2010-06-30 05:35:46')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 434ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:00) [POST]
+Sending data 
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:02) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 22:59:02) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:45) [POST]
+Sending data 
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:46) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 22:59:46) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 34ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:49) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 22:59:49) [POST]
+  Parameters: {0=>{"key"=>"0e5be72f6580abbc6604fad9b0e0626aeaf09fd0adee8a1cf29f36ea316dc2d7"}}
+  [4;36;1mStratusKey Load (48.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0e5be72f6580abbc6604fad9b0e0626aeaf09fd0adee8a1cf29f36ea316dc2d7') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-07-02 02:59:49', NULL, '0e5be72f6580abbc6604fad9b0e0626aeaf09fd0adee8a1cf29f36ea316dc2d7', '2010-07-02 02:59:49')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 584ms (View: 2, DB: 49) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 22:59:52) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 22:59:52) [POST]
+  Parameters: {0=>{"key"=>"1e1695047dc1ae4eb668d1230a6f8f0badd01a242d86d373f225b082dc818bd8"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '1e1695047dc1ae4eb668d1230a6f8f0badd01a242d86d373f225b082dc818bd8') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "user_id", "key", "created_at") VALUES('2010-07-02 02:59:52', NULL, '1e1695047dc1ae4eb668d1230a6f8f0badd01a242d86d373f225b082dc818bd8', '2010-07-02 02:59:52')[0m
+
+TypeError (can't convert Class into String):
+  app/controllers/chat_controller.rb:12:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 246ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100628035453)
+Migrating to CreateStratusKeys (20100629031025)
+Migrating to CreateConnections (20100630050720)
+Migrating to AddConnectedToStratusKey (20100702030653)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mALTER TABLE "stratus_keys" ADD "connected" boolean[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100702030653')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("connections")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stratus_keys")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:15:57) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:15:58) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 23:15:58) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:16:12) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:16:13) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 23:16:13) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:16:17) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:16:17) [POST]
+  Parameters: {0=>{"key"=>"37d6770a50502a290e5143568b2c07b783717abd37884f1860efccff0f8e50f3"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '37d6770a50502a290e5143568b2c07b783717abd37884f1860efccff0f8e50f3') LIMIT 1[0m
+  [4;35;1mStratusKey Create (0.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:16:17', 'f', NULL, '37d6770a50502a290e5143568b2c07b783717abd37884f1860efccff0f8e50f3', '2010-07-02 03:16:17')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."connected" = 'f') [0m
+Completed in 218ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 245ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:16:23) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:16:23) [POST]
+  Parameters: {0=>{"key"=>"036ae24c0cae636ee0322d253b3323359aee53cc4ffe17357e5c5ea23dc0c7e5"}}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '036ae24c0cae636ee0322d253b3323359aee53cc4ffe17357e5c5ea23dc0c7e5') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:16:23', 'f', NULL, '036ae24c0cae636ee0322d253b3323359aee53cc4ffe17357e5c5ea23dc0c7e5', '2010-07-02 03:16:23')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."connected" = 'f') [0m
+Completed in 158ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 182ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:19:27) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:19:28) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 23:19:28) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:19:31) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:19:31) [POST]
+  Parameters: {0=>{"key"=>"e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:19:31', 'f', NULL, 'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8', '2010-07-02 03:19:31')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSQLite3::SQLException: near "'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT 'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8' AND connected = 'f') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT 'e0eedd024e893f0e72ec7b2c0c68b1129b3d44fa1ef0431bcb2973328ecc92a8' AND connected = 'f') ):
+  app/controllers/chat_controller.rb:13:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 373ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:21:08) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:21:09) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 23:21:09) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:21:23) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:21:24) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-01 23:21:24) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:22:13) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:22:13) [POST]
+  Parameters: {0=>{"key"=>"8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:22:13', 'f', NULL, '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d', '2010-07-02 03:22:13')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSQLite3::SQLException: near "'8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "'8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') ):
+  app/controllers/chat_controller.rb:13:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 391ms (View: 1, DB: 2) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:22:38) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:22:38) [POST]
+  Parameters: {0=>{"key"=>"1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1"}}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:22:38', 'f', NULL, '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1', '2010-07-02 03:22:38')[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSQLite3::SQLException: near "'1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1' AND connected = 'f') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "'1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1' AND connected = 'f') ):
+  app/controllers/chat_controller.rb:13:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 315ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:22:54) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:22:54) [POST]
+  Parameters: {0=>{"key"=>"1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1"}}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSQLite3::SQLException: near "'1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1' AND connected = 'f') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "'1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1' AND connected = 'f') ):
+  app/controllers/chat_controller.rb:13:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 144ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:22:58) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:22:58) [POST]
+  Parameters: {0=>{"key"=>"8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSQLite3::SQLException: near "'8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "'8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d'": syntax error: SELECT * FROM "stratus_keys" WHERE (key IS NOT '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') ):
+  app/controllers/chat_controller.rb:13:in `connect'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 115ms (View: 1, DB: 1) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:25:08) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:25:08) [POST]
+  Parameters: {0=>{"key"=>"8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d"}}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:25:08', 'f', NULL, '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d', '2010-07-02 03:25:08')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') [0m
+Completed in 214ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 243ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:25:09) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:25:09) [POST]
+  Parameters: {0=>{"key"=>"1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1"}}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1') LIMIT 1[0m
+  [4;36;1mStratusKey Create (14.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-02 03:25:09', 'f', NULL, '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1', '2010-07-02 03:25:09')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '1efec8958b2fd2ad98376da72dc1f0deb547caaa8bc466f74ed28baa0c1bb9a1' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (2.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-02 03:25:09' WHERE "id" = 16[0m
+Completed in 295ms (DB: 18) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 323ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-01 23:26:55) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-01 23:26:55) [POST]
+  Parameters: {0=>{"key"=>"8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d"}}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '8c08f88b234e5ae0ea74a1b7737c060becf1d921791b3014b0c11911b7fd6f7d' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (0.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-02 03:26:55' WHERE "id" = 17[0m
+Completed in 143ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 171ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:31:02) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:31:03) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:31:03) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 3, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:41:00) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:41:01) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:41:01) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:43:00) [POST]
+Sending data 
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:43:01) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:43:01) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:44:21) [POST]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:44:22) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:44:23) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:44:54) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:44:55) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:44:55) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:46:10) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:46:11) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:46:11) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:46:51) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:46:52) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:46:53) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 66ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:50:26) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:50:27) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:50:27) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:51:03) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:51:18) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:51:19) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:51:19) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:52:51) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:52:52) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:52:52) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:58:38) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:58:39) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:58:39) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:59:21) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 00:59:22) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 00:59:22) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:00:03) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:00:05) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:00:05) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:00:15) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:00:16) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:00:16) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:05:11) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:05:12) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:05:12) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:05:25) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:05:26) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:05:26) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 59ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:09:33) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:09:34) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:09:34) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:09:44) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:09:45) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:09:45) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:10:49) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:10:50) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:10:50) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:10:59) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:11:00) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-02 01:11:00) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 42ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-02 01:12:11) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:40:00) [POST]
+Sending data 
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:40:01) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:40:01) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:40:06) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:40:07) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:40:07) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:45:59) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:46:00) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:46:00) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:46:17) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:46:18) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:46:18) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:47:21) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:47:22) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:47:22) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 3ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:56:24) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:56:25) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:56:25) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:56:28) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 12:56:29) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 12:56:29) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:05:07) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:05:10) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:05:10) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:05:14) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:05:15) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:05:15) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:06:30) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:06:31) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:06:31) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:07:17) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:07:18) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:07:18) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:17:11) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:17:13) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:17:13) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 34ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:17:15) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:17:16) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:17:16) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:19:16) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:19:18) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:19:18) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:19:24) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:46:17) [POST]
+Sending data 
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:46:18) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:46:18) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:46:32) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:46:33) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:46:33) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:47:53) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:47:55) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:47:55) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:47:55) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:47:56) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:47:56) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:48:51) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:48:52) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:48:52) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 62ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:48:58) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:48:59) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:48:59) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:54:35) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:54:36) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:54:36) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:54:54) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:54:55) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:54:55) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:56:59) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:57:00) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:57:00) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 2ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 61ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:57:14) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 13:57:15) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 13:57:15) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 14:00:47) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-03 14:00:48) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-03 14:00:48) [POST]
+  Parameters: {0=>"TEST"}
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:13:04) [POST]
+Sending data 
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:13:05) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 12:13:05) [POST]
+  Parameters: {0=>"TEST"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:13:11) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:13:11) [POST]
+  Parameters: {0=>{"key"=>"2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c"}}
+  [4;36;1mStratusKey Load (25.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 16:13:12', 'f', NULL, '2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c', '2010-07-18 16:13:12')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c' AND connected = 'f') [0m
+Completed in 380ms (DB: 26) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 404ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:13:27) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:13:27) [POST]
+  Parameters: {0=>{"key"=>"2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c"}}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '2f0a6f7f09de7ea808fe6a00c313952cdcd3346f48f379fc3e4668d45ad7a66c' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:14:28) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:14:29) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 12:14:29) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:14:33) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:14:34) [POST]
+  Parameters: {0=>{"key"=>"a0f16131be54cca43c9ec6b8300ceaea87847528566afc2ca7002996557de2d7"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a0f16131be54cca43c9ec6b8300ceaea87847528566afc2ca7002996557de2d7') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 16:14:34', 'f', NULL, 'a0f16131be54cca43c9ec6b8300ceaea87847528566afc2ca7002996557de2d7', '2010-07-18 16:14:34')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a0f16131be54cca43c9ec6b8300ceaea87847528566afc2ca7002996557de2d7' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (2.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 16:14:34' WHERE "id" = 18[0m
+Completed in 524ms (DB: 5) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 556ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:15:27) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:15:28) [POST]
+Sending data 
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:16:09) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:16:11) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:20:02) [POST]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:20:04) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:20:25) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:20:26) [POST]
+Sending data 
+Completed in 43ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:26:22) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:26:23) [POST]
+Sending data 
+Completed in 44ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:27:25) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:27:26) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:29:29) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:29:30) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 12:29:30) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:50:21) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:50:22) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 12:50:22) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:50:25) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:50:25) [POST]
+  Parameters: {0=>{"key"=>"bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 16:50:25', 'f', NULL, 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff', '2010-07-18 16:50:25')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (2.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 16:50:25' WHERE "id" = 19[0m
+Completed in 356ms (DB: 5) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 381ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:50:44) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:50:44) [POST]
+  Parameters: {0=>{"key"=>"bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 12:50:53) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 12:50:53) [POST]
+  Parameters: {0=>{"key"=>"bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'bb7fabeb91e8f6dadd2a0d560ea5a55c567d1f32fd61ae5a8c33576f270d68ff' AND connected = 'f') [0m
+Completed in 12ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 50ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:25:11) [POST]
+Sending data 
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:25:12) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:25:12) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:27:46) [POST]
+Sending data 
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:27:47) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:27:47) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:28:06) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:28:06) [POST]
+  Parameters: {0=>{"key"=>"2b82e80b759c8d0f2acab13c014b5c4aaf0272f05ce92edf6c2cb1d6feff8a37"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '2b82e80b759c8d0f2acab13c014b5c4aaf0272f05ce92edf6c2cb1d6feff8a37') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:28:06', 'f', NULL, '2b82e80b759c8d0f2acab13c014b5c4aaf0272f05ce92edf6c2cb1d6feff8a37', '2010-07-18 18:28:06')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '2b82e80b759c8d0f2acab13c014b5c4aaf0272f05ce92edf6c2cb1d6feff8a37' AND connected = 'f') [0m
+Completed in 142ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 173ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:28:12) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:28:12) [POST]
+  Parameters: {0=>{"key"=>"6b9d55e2f773ee86f14455bdff0eeb348266e798eb39f19d8d59a5eaf166b47b"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '6b9d55e2f773ee86f14455bdff0eeb348266e798eb39f19d8d59a5eaf166b47b') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:28:12', 'f', NULL, '6b9d55e2f773ee86f14455bdff0eeb348266e798eb39f19d8d59a5eaf166b47b', '2010-07-18 18:28:12')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '6b9d55e2f773ee86f14455bdff0eeb348266e798eb39f19d8d59a5eaf166b47b' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 18:28:12' WHERE "id" = 21[0m
+Completed in 353ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 385ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:28:43) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:28:45) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:28:45) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:32:36) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:32:36) [POST]
+  Parameters: {0=>{"key"=>"29884d17b364c56d9f6f2a6f2711842c0b9e06e1a0959bae8b720622f5935cb2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '29884d17b364c56d9f6f2a6f2711842c0b9e06e1a0959bae8b720622f5935cb2') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:32:36', 'f', NULL, '29884d17b364c56d9f6f2a6f2711842c0b9e06e1a0959bae8b720622f5935cb2', '2010-07-18 18:32:36')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '29884d17b364c56d9f6f2a6f2711842c0b9e06e1a0959bae8b720622f5935cb2' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 18:32:36' WHERE "id" = 22[0m
+Completed in 368ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 393ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:32:42) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:32:43) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:32:43) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:33:11) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:33:12) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:33:12) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:33:14) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:33:14) [POST]
+  Parameters: {0=>{"key"=>"a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:33:14', 'f', NULL, 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2', '2010-07-18 18:33:14')[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2' AND connected = 'f') [0m
+Completed in 129ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 155ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:33:28) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:33:28) [POST]
+  Parameters: {0=>{"key"=>"14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706') LIMIT 1[0m
+  [4;35;1mStratusKey Create (0.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:33:28', 'f', NULL, '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706', '2010-07-18 18:33:28')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 18:33:28' WHERE "id" = 24[0m
+Completed in 399ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 427ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:35:02) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:35:02) [POST]
+  Parameters: {0=>{"key"=>"a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 18:35:02' WHERE "id" = 25[0m
+Completed in 142ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 167ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:19) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:36:19) [POST]
+  Parameters: {0=>{"key"=>"a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a98fc486e1a7dd4422802f1ce84845c9f2d2c69eaa3dd62dd014e9541dfbe7d2' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:32) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:33) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 14:36:33) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:40) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:36:40) [POST]
+  Parameters: {0=>{"key"=>"14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706' AND connected = 'f') [0m
+Completed in 11ms (DB: 0) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 37ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:49) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:36:49) [POST]
+  Parameters: {0=>{"key"=>"cd75868a31cef837198361e082efc776571e3184a5e89d1cd569e63e7c728d57"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'cd75868a31cef837198361e082efc776571e3184a5e89d1cd569e63e7c728d57') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-18 18:36:49', 'f', NULL, 'cd75868a31cef837198361e082efc776571e3184a5e89d1cd569e63e7c728d57', '2010-07-18 18:36:49')[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'cd75868a31cef837198361e082efc776571e3184a5e89d1cd569e63e7c728d57' AND connected = 'f') [0m
+Completed in 169ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 195ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 14:36:56) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-18 14:36:56) [POST]
+  Parameters: {0=>{"key"=>"14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706') LIMIT 1[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '14f82611f54716e8d67da0fea3d7370c78cd20b5eb781ef9f06a87c0b416a706' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-18 18:36:56' WHERE "id" = 26[0m
+Completed in 141ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 167ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:16:57) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:16:58) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:16:58) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:17:19) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:17:20) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:17:20) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:45:53) [POST]
+Sending data 
+Completed in 32ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:45:54) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:45:54) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:45:58) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:45:59) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:45:59) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:54:46) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:54:47) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:54:47) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 38ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:55:02) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:55:03) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:55:03) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:57:24) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:57:27) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:57:27) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 56ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:57:36) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 15:57:37) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 15:57:37) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:05:23) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:05:24) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:05:24) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:05:34) [POST]
+Sending data 
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:05:35) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:05:35) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:09:51) [POST]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:09:52) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:09:52) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:09:55) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:09:56) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:09:56) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:15:28) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:15:29) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:15:29) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:15:33) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:15:34) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:15:34) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:18:07) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:18:08) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:18:08) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:18:12) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:18:13) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:18:13) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:32:24) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:32:25) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:32:25) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 32ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:32:29) [POST]
+Sending data 
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:32:30) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:32:30) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:33:22) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:33:23) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:33:23) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:44:16) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:44:17) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:44:17) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:44:23) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:44:24) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:44:24) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 30ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:45:49) [POST]
+Sending data 
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:45:50) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:45:50) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 27ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:46:39) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:46:40) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:46:40) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:47:15) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:47:16) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:47:16) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:48:52) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:48:53) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:48:53) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:49:14) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:49:15) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:49:15) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:49:35) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 16:49:36) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 16:49:36) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  stratus_key_id: 1
+  peer_id: 1
+
+two:
+  stratus_key_id: 1
+  peer_id: 1
