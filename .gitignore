@@ -1,0 +1,14 @@
+*~
+*.cache
+*.log
+*.pid
+Dasani/tmp/**/*
+Dasani/.DS_Store
+Dasani/doc/api
+Dasani/doc/app
+Dasani/doc/plugins
+Dasani/doc/*.dot
+*.tmproj
+*.sw?
+.metadata/*
+.fxpTemp/*
