@@ -3238,3 +3238,1190 @@ Filter chain halted as [:test] rendered_or_redirected.
 Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
 Sending data 
 Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 17:37:31) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-18 17:37:32) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-18 17:37:32) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 31ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 00:11:22) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 00:11:23) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 00:11:23) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:14:22) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:14:24) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 22:14:24) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 133ms (View: 2, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:14:33) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:14:34) [POST]
+  Parameters: {0=>{"key"=>"3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (38.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 02:14:34', 'f', NULL, '3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506', '2010-07-27 02:14:34')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506' AND connected = 'f') [0m
+Completed in 522ms (DB: 39) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 615ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:15:20) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:15:20) [POST]
+  Parameters: {0=>{"key"=>"3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506') LIMIT 1[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '3d469e0bd1e8031ad2e644434644f236677d6ecaf018ce1cdaac42196b738506' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:19:28) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:19:30) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 22:19:30) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 29ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:20:16) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:20:16) [POST]
+  Parameters: {0=>{"key"=>"b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 02:20:16', 'f', NULL, 'b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e', '2010-07-27 02:20:16')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e' AND connected = 'f') [0m
+Completed in 297ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 325ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:20:31) [POST]
+Sending data 
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:20:32) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 22:20:32) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:20:34) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:20:34) [POST]
+  Parameters: {0=>{"key"=>"555962fe98a3fac73d69d9ccd02dc56affd930363a4e48d0112b0c7231e9db65"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '555962fe98a3fac73d69d9ccd02dc56affd930363a4e48d0112b0c7231e9db65') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 02:20:34', 'f', NULL, '555962fe98a3fac73d69d9ccd02dc56affd930363a4e48d0112b0c7231e9db65', '2010-07-27 02:20:34')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '555962fe98a3fac73d69d9ccd02dc56affd930363a4e48d0112b0c7231e9db65' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 02:20:34' WHERE "id" = 28[0m
+Completed in 227ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 255ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:20:47) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:20:47) [POST]
+  Parameters: {0=>{"key"=>"b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'b2a0cbc552b6e00c062873cfbe5ec025e14807a7c779cb4c8d21cd4a56482a5e' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (0.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 02:20:47' WHERE "id" = 29[0m
+Completed in 99ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 124ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:28:59) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:29:00) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 22:29:00) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 30ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 60ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:29:04) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:29:04) [POST]
+  Parameters: {0=>{"key"=>"a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 02:29:04', 'f', NULL, 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e', '2010-07-27 02:29:04')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e' AND connected = 'f') [0m
+Completed in 147ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 173ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:29:22) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:29:22) [POST]
+  Parameters: {0=>{"key"=>"a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:29:35) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:29:35) [POST]
+  Parameters: {0=>{"key"=>"a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e' AND connected = 'f') [0m
+Completed in 11ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 37ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 22:30:06) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 22:30:06) [POST]
+  Parameters: {0=>{"key"=>"a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e') LIMIT 1[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a89a2112d43e75d76f152f62e1ec6f96ca1e7b3ada8d91b5349bd78be1e2d77e' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 02:30:06' WHERE "id" = 28[0m
+Completed in 167ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 195ms (View: 6, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:10) [POST]
+Sending data 
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:11) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 23:07:11) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:26) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:28) [POST]
+
+
+Processing TestController#test (for 127.0.0.1 at 2010-07-26 23:07:28) [POST]
+  Parameters: {0=>"TEST", "action"=>"test", "controller"=>"test"}
+Filter chain halted as [:test] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 200 [http://localhosttest/test]
+Sending data 
+Completed in 28ms (View: 1, DB: 0) | 200 OK [http://localhosttest/test]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:39) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:07:39) [POST]
+  Parameters: {0=>{"key"=>"8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:07:39', 'f', NULL, '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9', '2010-07-27 03:07:39')[0m
+  [4;36;1mStratusKey Load (2.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9' AND connected = 'f') [0m
+Completed in 150ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 183ms (View: 5, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:44) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:07:44) [POST]
+  Parameters: {0=>{"key"=>"9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:07:44', 'f', NULL, '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5', '2010-07-27 03:07:44')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (0.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:07:44' WHERE "id" = 31[0m
+Completed in 213ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 239ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:07:55) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:07:55) [POST]
+  Parameters: {0=>{"key"=>"8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (0.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:07:55' WHERE "id" = 32[0m
+Completed in 143ms (DB: 0) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 168ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:09:41) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:09:41) [POST]
+  Parameters: {0=>{"partner_key"=>nil, "key"=>"8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:37:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (28.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 240ms (View: 2, DB: 1) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:10:06) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:10:06) [POST]
+  Parameters: {0=>{"partner_key"=>nil, "key"=>"9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:37:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 145ms (View: 1, DB: 1) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:10:07) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:10:07) [POST]
+  Parameters: {0=>{"key"=>"9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5' AND connected = 'f') [0m
+Completed in 11ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 36ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:10:10) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:10:10) [POST]
+  Parameters: {0=>{"key"=>"8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9' AND connected = 'f') [0m
+Completed in 12ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:10:24) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:10:24) [POST]
+  Parameters: {0=>{"key"=>"8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '8dbdf2a7b9a9d99fe9fcd34da76e64adcd6732815e5a18da1384154cbdc4efb9' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:10:28) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:10:28) [POST]
+  Parameters: {0=>{"key"=>"9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5') LIMIT 1[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '9861babcf72400216e35598350d05608c9d4b37859e286aeba6a79d3ba7b21e5' AND connected = 'f') [0m
+Completed in 10ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 35ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:20:03) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:20:04) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:20:04) [POST]
+  Parameters: {0=>{"key"=>"1e001a073054ac8ef7eb46c24ede2767bb704c56a648f81dff58150a1d5aa3bd"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '1e001a073054ac8ef7eb46c24ede2767bb704c56a648f81dff58150a1d5aa3bd') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:20:04', 'f', NULL, '1e001a073054ac8ef7eb46c24ede2767bb704c56a648f81dff58150a1d5aa3bd', '2010-07-27 03:20:04')[0m
+  [4;36;1mStratusKey Load (5.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '1e001a073054ac8ef7eb46c24ede2767bb704c56a648f81dff58150a1d5aa3bd' AND connected = 'f') [0m
+Completed in 153ms (DB: 7) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 183ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:20:05) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:20:06) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:20:06) [POST]
+  Parameters: {0=>{"key"=>"32ca309dcd7b11b40ae5836dfe406be21fb749ac6508057ee7b174a950a8519d"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '32ca309dcd7b11b40ae5836dfe406be21fb749ac6508057ee7b174a950a8519d') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:20:06', 'f', NULL, '32ca309dcd7b11b40ae5836dfe406be21fb749ac6508057ee7b174a950a8519d', '2010-07-27 03:20:06')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '32ca309dcd7b11b40ae5836dfe406be21fb749ac6508057ee7b174a950a8519d' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (2.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:20:06' WHERE "id" = 33[0m
+Completed in 225ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 255ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:29:00) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:29:01) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:29:01) [POST]
+  Parameters: {0=>{"key"=>"4f3519402a2b9e96047b635212a1e130ed2432684b0a52b6217bbdb52e08b12c"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '4f3519402a2b9e96047b635212a1e130ed2432684b0a52b6217bbdb52e08b12c') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:29:01', 'f', NULL, '4f3519402a2b9e96047b635212a1e130ed2432684b0a52b6217bbdb52e08b12c', '2010-07-27 03:29:01')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '4f3519402a2b9e96047b635212a1e130ed2432684b0a52b6217bbdb52e08b12c' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (3.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:29:02' WHERE "id" = 34[0m
+Completed in 276ms (DB: 6) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 311ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:29:03) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:29:04) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:29:04) [POST]
+  Parameters: {0=>{"key"=>"ffeea99b613670934e75715c7d9d02fecd272ebf47049db2966e82924e6c4843"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'ffeea99b613670934e75715c7d9d02fecd272ebf47049db2966e82924e6c4843') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:29:04', 'f', NULL, 'ffeea99b613670934e75715c7d9d02fecd272ebf47049db2966e82924e6c4843', '2010-07-27 03:29:04')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'ffeea99b613670934e75715c7d9d02fecd272ebf47049db2966e82924e6c4843' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:29:04' WHERE "id" = 35[0m
+Completed in 224ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 259ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:32:50) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:32:51) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:32:51) [POST]
+  Parameters: {0=>{"key"=>"954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:32:51', 'f', NULL, '954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264', '2010-07-27 03:32:51')[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264' AND connected = 'f') [0m
+Completed in 185ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 259ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:32:54) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:32:55) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:32:55) [POST]
+  Parameters: {0=>{"key"=>"3d436ba174751d38d08f3c877e007c03d2313837143f2158cbbbf8c103613327"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '3d436ba174751d38d08f3c877e007c03d2313837143f2158cbbbf8c103613327') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:32:55', 'f', NULL, '3d436ba174751d38d08f3c877e007c03d2313837143f2158cbbbf8c103613327', '2010-07-27 03:32:55')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '3d436ba174751d38d08f3c877e007c03d2313837143f2158cbbbf8c103613327' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:32:55' WHERE "id" = 37[0m
+Completed in 297ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 322ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:33:01) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:33:01) [POST]
+  Parameters: {0=>{"key"=>"954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '954c03941995ec6ddd1775c6ecb91bdb03a4ee94c9d89445868722e54936f264' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:33:01' WHERE "id" = 38[0m
+Completed in 112ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 136ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:34:51) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:34:52) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:34:52) [POST]
+  Parameters: {0=>{"key"=>"0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:34:52', 'f', NULL, '0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231', '2010-07-27 03:34:52')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231' AND connected = 'f') [0m
+Completed in 201ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 235ms (View: 5, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:34:55) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:34:56) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:34:56) [POST]
+  Parameters: {0=>{"key"=>"54f6d975dba0052811b5941f0840b38f4a43bd41642bcc499283be40b0d43373"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '54f6d975dba0052811b5941f0840b38f4a43bd41642bcc499283be40b0d43373') LIMIT 1[0m
+  [4;35;1mStratusKey Create (0.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:34:56', 'f', NULL, '54f6d975dba0052811b5941f0840b38f4a43bd41642bcc499283be40b0d43373', '2010-07-27 03:34:56')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '54f6d975dba0052811b5941f0840b38f4a43bd41642bcc499283be40b0d43373' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:34:56' WHERE "id" = 39[0m
+Completed in 285ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 316ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:35:03) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:35:03) [POST]
+  Parameters: {0=>{"key"=>"0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231') LIMIT 1[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '0a8583fe3b9e233ac4fd67dfe188d81f726e79d59bba594756db758e1b2fd231' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:35:03' WHERE "id" = 40[0m
+Completed in 170ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 200ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:48:52) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:48:53) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:48:53) [POST]
+  Parameters: {0=>{"key"=>"7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed') LIMIT 1[0m
+  [4;35;1mStratusKey Create (2.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:48:53', 'f', NULL, '7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed', '2010-07-27 03:48:53')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed' AND connected = 'f') [0m
+Completed in 278ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 304ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:48:53) [POST]
+Sending data 
+Completed in 38ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:48:54) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:48:54) [POST]
+  Parameters: {0=>{"key"=>"a351ad96dc340115e0aea10cb668637b503efda345433b674b21ec3cd6a4dd56"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a351ad96dc340115e0aea10cb668637b503efda345433b674b21ec3cd6a4dd56') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:48:54', 'f', NULL, 'a351ad96dc340115e0aea10cb668637b503efda345433b674b21ec3cd6a4dd56', '2010-07-27 03:48:54')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'a351ad96dc340115e0aea10cb668637b503efda345433b674b21ec3cd6a4dd56' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (2.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:48:55' WHERE "id" = 41[0m
+Completed in 289ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 336ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:49:14) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:49:14) [POST]
+  Parameters: {0=>{"key"=>"7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '7f4eeb17bfc7feab65ea127ad13c7698a2b39dab827f39df30fc27ded301f6ed' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:49:14' WHERE "id" = 42[0m
+Completed in 226ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 270ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:51:32) [POST]
+Sending data 
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:51:33) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:51:33) [POST]
+  Parameters: {0=>{"key"=>"0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:51:33', 'f', NULL, '0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411', '2010-07-27 03:51:33')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411' AND connected = 'f') [0m
+Completed in 120ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 143ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:51:33) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:51:34) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:51:35) [POST]
+  Parameters: {0=>{"key"=>"5703b992d1baeb384caafd717a284771322f61422899129673423cd66d764093"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '5703b992d1baeb384caafd717a284771322f61422899129673423cd66d764093') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:51:35', 'f', NULL, '5703b992d1baeb384caafd717a284771322f61422899129673423cd66d764093', '2010-07-27 03:51:35')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '5703b992d1baeb384caafd717a284771322f61422899129673423cd66d764093' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:51:35' WHERE "id" = 43[0m
+Completed in 282ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 312ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:51:38) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:51:38) [POST]
+  Parameters: {0=>{"key"=>"0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '0e6a6e52637e363799152c5f379bd246356e705e91ce1949ce26ff891758b411' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:51:38' WHERE "id" = 44[0m
+Completed in 146ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 177ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:52:47) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:52:48) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:52:48) [POST]
+  Parameters: {0=>{"key"=>"25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:52:48', 'f', NULL, '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60', '2010-07-27 03:52:48')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60' AND connected = 'f') [0m
+Completed in 240ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 265ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:52:48) [POST]
+Sending data 
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:52:49) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:52:49) [POST]
+  Parameters: {0=>{"key"=>"8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:52:50', 'f', NULL, '8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d', '2010-07-27 03:52:50')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:52:50' WHERE "id" = 45[0m
+Completed in 301ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 327ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:52:57) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:52:57) [POST]
+  Parameters: {0=>{"key"=>"25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60') LIMIT 1[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (0.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:52:57' WHERE "id" = 46[0m
+Completed in 263ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 333ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:53:09) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:53:09) [POST]
+  Parameters: {0=>{"partner_key"=>"8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d", "key"=>"25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:38:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 134ms (View: 2, DB: 1) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:53:13) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:53:13) [POST]
+  Parameters: {0=>{"partner_key"=>"25025449f28bc2e1569e9f952f292dcb90aa5350f4a53a225f4b5955091cff60", "key"=>"8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '8522ef86d7ccbf3681e249194f1efecd139c87b19cd92ee8fee67fc30e17ad4d') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:38:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (65.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 109ms (View: 1, DB: 1) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:55:47) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:55:47) [POST]
+  Parameters: {0=>{"key"=>"739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:55:47', 'f', NULL, '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063', '2010-07-27 03:55:47')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063' AND connected = 'f') [0m
+Completed in 189ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 218ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:55:56) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:55:56) [POST]
+  Parameters: {0=>{"key"=>"06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:55:56', 'f', NULL, '06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605', '2010-07-27 03:55:56')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (2.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:55:56' WHERE "id" = 47[0m
+Completed in 245ms (DB: 5) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 271ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:55:58) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:55:58) [POST]
+  Parameters: {0=>{"key"=>"739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:55:58' WHERE "id" = 48[0m
+Completed in 150ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 178ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:56:06) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:56:06) [POST]
+  Parameters: {0=>{"partner_key"=>"739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063", "key"=>"06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:37:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:56:20) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:56:20) [POST]
+  Parameters: {0=>{"partner_key"=>"06ce56c9a0cc2ff60bfab1fe9e0db78f96aae23da7e17b3710b112fd89fbd605", "key"=>"739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '739dff6ebdc4562f1f378e8d4eff53ec7c1cd79cd7dc35b5f40d52ba62077063') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:37:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 150ms (View: 1, DB: 0) | 200 OK [http://localhostchat/disconnectChat]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:24) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:26) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:58:26) [POST]
+  Parameters: {0=>{"key"=>"b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:58:26', 'f', NULL, 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2', '2010-07-27 03:58:26')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2' AND connected = 'f') [0m
+Completed in 299ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 330ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:28) [POST]
+Sending data 
+Completed in 34ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:29) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:58:29) [POST]
+  Parameters: {0=>{"key"=>"298b70d2f49ab03acee052f22af651c0790bf84f1c902cef974c48a1091c3bbc"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '298b70d2f49ab03acee052f22af651c0790bf84f1c902cef974c48a1091c3bbc') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 03:58:29', 'f', NULL, '298b70d2f49ab03acee052f22af651c0790bf84f1c902cef974c48a1091c3bbc', '2010-07-27 03:58:29')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> '298b70d2f49ab03acee052f22af651c0790bf84f1c902cef974c48a1091c3bbc' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (2.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:58:30' WHERE "id" = 49[0m
+Completed in 273ms (DB: 4) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 303ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:34) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-26 23:58:34) [POST]
+  Parameters: {0=>{"key"=>"b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2') LIMIT 1[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 03:58:34' WHERE "id" = 50[0m
+Completed in 148ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 185ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-26 23:58:42) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-26 23:58:42) [POST]
+  Parameters: {0=>{"partner_key"=>"298b70d2f49ab03acee052f22af651c0790bf84f1c902cef974c48a1091c3bbc", "key"=>"b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'b7714132821aa5acb84dbf7ae3a2bec807a68639f9e8fbacafb092cff017aaa2') LIMIT 1[0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:38:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (217.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 297ms (View: 1, DB: 0) | 200 OK [http://localhostchat/disconnectChat]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:16) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:17) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:04:17) [POST]
+  Parameters: {0=>{"key"=>"e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:04:17', 'f', NULL, 'e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6', '2010-07-27 04:04:17')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6' AND connected = 'f') [0m
+Completed in 205ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 237ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:18) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:19) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:04:19) [POST]
+  Parameters: {0=>{"key"=>"eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:04:19', 'f', NULL, 'eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192', '2010-07-27 04:04:19')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:04:19' WHERE "id" = 51[0m
+Completed in 329ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 357ms (View: 3, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:22) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:04:22) [POST]
+  Parameters: {0=>{"key"=>"e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:04:22' WHERE "id" = 52[0m
+Completed in 142ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 170ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:04:28) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-27 00:04:28) [POST]
+  Parameters: {0=>{"partner_key"=>"e8904a9baf11bc6b13e7fc93c07aabaa00e4dbc530a63336581f2ceb8f4c1cb6", "key"=>"eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'eda0e25cd7fbff3fc3d395a9447d3af06e892fcc79bd3bf8af6f7208e752e192') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."id" = 52) [0m
+
+TypeError (can't convert Class into String):
+  (eval):3:in `destroy_without_callbacks'
+  app/controllers/chat_controller.rb:37:in `disconnectChat'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:149:in `invoke'
+  vendor/plugins/rubyamf_plugin/app/actions.rb:89:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:68:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:65:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `upto'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:63:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:12:in `run'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `each'
+  vendor/plugins/rubyamf_plugin/app/filters.rb:11:in `run'
+  vendor/plugins/rubyamf_plugin/app/rails_gateway.rb:28:in `service'
+  app/controllers/rubyamf_controller.rb:16:in `gateway'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (127.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+Sending data 
+Completed in 214ms (View: 1, DB: 1) | 200 OK [http://localhostchat/disconnectChat]
+DEPRECATION WARNING: unverifiable_types is deprecated and has no effect. (called from C:/Users/Ray/Adobe Flash Builder 4/Dasani-Rails/vendor/plugins/rubyamf_plugin/app/mime_type.rb:3)
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:18:56) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:18:57) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:18:57) [POST]
+  Parameters: {0=>{"key"=>"a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:18:57', 'f', NULL, 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8', '2010-07-27 04:18:57')[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8' AND connected = 'f') [0m
+Completed in 270ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 297ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:18:57) [POST]
+Sending data 
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:18:58) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:18:58) [POST]
+  Parameters: {0=>{"key"=>"c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a') LIMIT 1[0m
+  [4;36;1mStratusKey Create (1.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:18:58', 'f', NULL, 'c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a', '2010-07-27 04:18:58')[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:18:58' WHERE "id" = 53[0m
+Completed in 273ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 311ms (View: 2, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:04) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:19:04) [POST]
+  Parameters: {0=>{"key"=>"a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:19:04' WHERE "id" = 54[0m
+Completed in 166ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 189ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:21) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-27 00:19:21) [POST]
+  Parameters: {0=>{"partner_key"=>"a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8", "key"=>"c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."id" = 54) [0m
+  [4;36;1mStratusKey Destroy (0.0ms)[0m   [0;1mDELETE FROM "stratus_keys" WHERE "id" = 54[0m
+  [4;35;1mStratusKey Load (2.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8') LIMIT 1[0m
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."id" = 53) [0m
+  [4;35;1mStratusKey Destroy (23.0ms)[0m   [0mDELETE FROM "stratus_keys" WHERE "id" = 53[0m
+Completed in 318ms (DB: 27) | 200 [http://localhostchat/disconnectChat]
+Sending data 
+Completed in 344ms (View: 2, DB: 0) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:28) [POST]
+
+
+Processing ChatController#disconnectChat (for 127.0.0.1 at 2010-07-27 00:19:28) [POST]
+  Parameters: {0=>{"partner_key"=>"c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a", "key"=>"a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8"}, "action"=>"disconnectChat", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (1.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'a407c6cdd338ff1caecd96b7e42f0448e12e4b770d4a40d7c4ad3d0490b937a8') LIMIT 1[0m
+  [4;35;1mStratusKey Load (0.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'c9625d2bbbf9120e99eb121ade4480df0c889e00a01690c0917f9d12d8736a4a') LIMIT 1[0m
+Completed in 8ms (DB: 1) | 200 [http://localhostchat/disconnectChat]
+Sending data 
+Completed in 30ms (View: 1, DB: 0) | 200 OK [http://localhostchat/disconnectChat]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:34) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:19:34) [POST]
+  Parameters: {0=>{"key"=>"7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325"}, "action"=>"connect", "controller"=>"chat"}
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325') LIMIT 1[0m
+  [4;35;1mStratusKey Create (1.0ms)[0m   [0mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:19:34', 'f', NULL, '7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325', '2010-07-27 04:19:34')[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325' AND connected = 'f') [0m
+Completed in 173ms (DB: 1) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 206ms (View: 4, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:37) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:19:37) [POST]
+  Parameters: {0=>{"key"=>"e4c1b21dd08383efe32f4d7db92a07fe5ba05d3683849ef87297b8d9f7606f54"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = 'e4c1b21dd08383efe32f4d7db92a07fe5ba05d3683849ef87297b8d9f7606f54') LIMIT 1[0m
+  [4;36;1mStratusKey Create (0.0ms)[0m   [0;1mINSERT INTO "stratus_keys" ("updated_at", "connected", "user_id", "key", "created_at") VALUES('2010-07-27 04:19:37', 'f', NULL, 'e4c1b21dd08383efe32f4d7db92a07fe5ba05d3683849ef87297b8d9f7606f54', '2010-07-27 04:19:37')[0m
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE (key <> 'e4c1b21dd08383efe32f4d7db92a07fe5ba05d3683849ef87297b8d9f7606f54' AND connected = 'f') [0m
+  [4;36;1mStratusKey Update (1.0ms)[0m   [0;1mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:19:37' WHERE "id" = 55[0m
+Completed in 238ms (DB: 3) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 263ms (View: 1, DB: 0) | 200 OK [http://localhostchat/connect]
+
+
+Processing RubyamfController#gateway (for 127.0.0.1 at 2010-07-27 00:19:39) [POST]
+
+
+Processing ChatController#connect (for 127.0.0.1 at 2010-07-27 00:19:39) [POST]
+  Parameters: {0=>{"key"=>"7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325"}, "action"=>"connect", "controller"=>"chat"}
+  [4;35;1mStratusKey Load (1.0ms)[0m   [0mSELECT * FROM "stratus_keys" WHERE ("stratus_keys"."key" = '7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325') LIMIT 1[0m
+  [4;36;1mStratusKey Load (0.0ms)[0m   [0;1mSELECT * FROM "stratus_keys" WHERE (key <> '7bbc6b6e817b1749100c52ee3ad8353ab23341d250dcf9beb39ae14d8c76b325' AND connected = 'f') [0m
+  [4;35;1mStratusKey Update (1.0ms)[0m   [0mUPDATE "stratus_keys" SET "connected" = 't', "updated_at" = '2010-07-27 04:19:39' WHERE "id" = 56[0m
+Completed in 142ms (DB: 2) | 200 [http://localhostchat/connect]
+Sending data 
+Completed in 171ms (View: 5, DB: 0) | 200 OK [http://localhostchat/connect]

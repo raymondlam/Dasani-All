@@ -17,7 +17,7 @@ class ChatController < ApplicationController
       @peer.save
       @message = {:peer_id => @peer.key}
     else
-      @message = nil
+      @message = {:peer_id => nil}
     end
     respond_to do |format|
       format.amf {render :amf => @message }
@@ -28,8 +28,22 @@ class ChatController < ApplicationController
     
   end
   
-  def disconnect
-    @message = {:msg1 => "HI", :msg2 => 123}
+  def disconnectChat
+    @key = params[0][:key]
+    @partner_key = params[0][:partner_key]
+    if !(@key.blank?)
+      @client = StratusKey.find(:first, :conditions=>{:key=>@key})
+      if !(@client.blank?)
+        StratusKey.destroy(@client.id)
+      end
+    end
+    if !(@partner_key.blank?)
+      @peer = StratusKey.find(:first, :conditions=>{:key=>@partner_key})
+      if !(@peer.blank?)
+        StratusKey.destroy(@peer.id)
+      end
+    end
+    @message = {:success => ":D"}
     respond_to do |format|
       format.amf {render :amf => @message }
     end
